@@ -6,7 +6,6 @@ const getProfileDetails = (req, res, next) => {
     const { track } = req.query;
     //a Date object representing the current date and time
     const currentDateTime = new Date();
-    console.log("currentDate", currentDateTime);
     // day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
     const dayOfWeek = currentDateTime.getDay();
     //an array to map the numerical day of the week to its name

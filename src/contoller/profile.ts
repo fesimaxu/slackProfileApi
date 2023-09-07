@@ -11,8 +11,6 @@ export const getProfileDetails = (
   //a Date object representing the current date and time
   const currentDateTime = new Date();
 
-  console.log("currentDate", currentDateTime);
-
   // day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
   const dayOfWeek = currentDateTime.getDay();
 
