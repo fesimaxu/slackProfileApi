@@ -18,6 +18,6 @@ app.use((0, cookie_parser_1.default)());
 app.use('/', routes_1.default);
 const BUILD_PORT = PORT;
 app.listen(BUILD_PORT || 2000, () => {
-    console.log(`profile api is running at http://localhost:${BUILD_PORT}`);
+    console.log(`profile api is running at http://localhost:${BUILD_PORT}/api?slack_name=IgweKode&track=backend`);
 });
 exports.default = app;
